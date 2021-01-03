@@ -4,18 +4,18 @@ import java.io.*;
 
 /**
  * A java program to read file line by line using the
- * readLine() method of the BufferReader Class.
+ * readLine() method of the BufferedReader Class.
  * 
  * @author Gaurav Kukade at coderolls.com
  *
  */
-public class BufferReaderReadLineMethodExample {
+public class BufferedReaderReadLineMethodExample {
 
 	public static void main(String[] args) {
 		
         BufferedReader bufferedReader = null;
 		try {
-			bufferedReader = new BufferedReader(new FileReader("F:\\sample-text.txt"));
+			bufferedReader = new BufferedReader(new FileReader("F:\\sample-text-two-lines.txt"));
 			
 			String line;
 			//read each line using readLine() method and print it

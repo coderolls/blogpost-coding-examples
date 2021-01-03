@@ -4,12 +4,12 @@ import java.io.*;
 
 /**
  * A java program to read file character by character using the
- * read() method of the BufferReader Class.
+ * read() method of the BufferedReader Class.
  * 
  * @author Gaurav Kukade at coderolls.com
  *
  */
-public class BufferReaderReadMethodExample {
+public class BufferedReaderReadMethodExample {
 
 	public static void main(String[] args) {
 		
