@@ -2,22 +2,24 @@ package com.coderolls;
 
 import java.io.*;
 
-public class BufferReaderExanple {
+public class BufferedReaderExanple {
 
 	public static void main(String[] args) {
 		BufferedReader bufferedReader = null;
 		try {
 			bufferedReader = new BufferedReader(new FileReader("F:\\sample-text.txt"));
+			System.out.println("Read file using read() method: ");
+			readFileCharacterByCharacter(bufferedReader);
+
+			bufferedReader = new BufferedReader(new FileReader("F:\\sample-text-two-lines.txt"));
+			System.out.println("\n\nRead file using readLine() method: ");
+			readFileLineByLine(bufferedReader);
 			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		readFileCharacterByCharacter(bufferedReader);
-		
-		readFileLineByLine(bufferedReader);
-		
+
 		try {
 			bufferedReader.close();
 		} catch (IOException e) {
@@ -26,7 +28,7 @@ public class BufferReaderExanple {
 	}
 	
 	/**
-	 * A method to read file content character by character using the BufferReader 
+	 * A method to read file content character by character using the BufferedReader 
 	 * read() method
 	 * 
 	 * @param bufferedReader
@@ -44,7 +46,7 @@ public class BufferReaderExanple {
 	}
 	
 	/**
-	 * A method to read file content line by line using the BufferReader 
+	 * A method to read file content line by line using the BufferedReader 
 	 * readLine() method
 	 * 
 	 * @param bufferedReader
