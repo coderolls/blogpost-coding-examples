@@ -28,7 +28,10 @@ public class ArrayListToArray2 {
 		
 		// convert ArrayList to array
 		// pass a new String array of the arrayList size as a param to toArray
-		String[] elements = arrayList.toArray(new String[arrayList.size()]);
+		//String[] elements = arrayList.toArray(new String[arrayList.size()]);
+		
+		//kindly read the 'Important Note' below
+		String[] elements = arrayList.toArray(new String[0]);
 		
 		System.out.println("\nArray:");
 		//we will receive the string array, so iterate on it to print each element
