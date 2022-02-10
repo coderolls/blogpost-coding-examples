@@ -25,12 +25,12 @@ public class LinkedListLastIndexOf {
 		System.out.println("LinkedList: ");
 		System.out.println(linkedList);
 		
-		// get first index of GoldSpot
+		// get last index of GoldSpot
 		int index = linkedList.lastIndexOf("GoldSpot"); // 6
 		
 		System.out.println("\nIndex of the GoldSpot in linkedList is: "+ index);
 		
-		// get first index of Moxie
+		// get last index of Moxie
 		int indexMoxie = linkedList.lastIndexOf("Moxie"); // 7
 		
 		System.out.println("\nIndex of the Moxie in linkedList is: "+ indexMoxie);
