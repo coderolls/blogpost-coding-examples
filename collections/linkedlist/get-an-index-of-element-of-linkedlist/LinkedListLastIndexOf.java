@@ -26,13 +26,18 @@ public class LinkedListLastIndexOf {
 		System.out.println(linkedList);
 		
 		// get last index of GoldSpot
-		int index = linkedList.lastIndexOf("GoldSpot"); // 6
+		int index = linkedList.lastIndexOf("DrPepper"); // 1
 		
-		System.out.println("\nIndex of the GoldSpot in linkedList is: "+ index);
+		System.out.println("\nLast index of the DrPepper in linkedList is: "+ index);
+		
+		// get last index of GoldSpot
+		int indexGS = linkedList.lastIndexOf("GoldSpot"); // 6
+		
+		System.out.println("\nLast index of the GoldSpot in linkedList is: "+ indexGS);
 		
 		// get last index of Moxie
 		int indexMoxie = linkedList.lastIndexOf("Moxie"); // 7
 		
-		System.out.println("\nIndex of the Moxie in linkedList is: "+ indexMoxie);
+		System.out.println("\nLast index of the Moxie in linkedList is: "+ indexMoxie);
 	}
 }

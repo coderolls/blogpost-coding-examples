@@ -26,9 +26,14 @@ public class LinkedListIndexOf {
 		System.out.println(linkedList);
 		
 		// get first index of GoldSpot
-		int index = linkedList.indexOf("GoldSpot"); // 2
+		int index = linkedList.indexOf("DrPepper"); // 1
 		
-		System.out.println("\nIndex of the GoldSpot in linkedList is: "+ index);
+		System.out.println("\nIndex of the DrPepper in linkedList is: "+ index);
+		
+		// get first index of GoldSpot
+		int indexGS = linkedList.indexOf("GoldSpot"); // 2
+		
+		System.out.println("\nIndex of the GoldSpot in linkedList is: "+ indexGS);
 		
 		// get first index of Moxie
 		int indexMoxie = linkedList.indexOf("Moxie"); // 5
