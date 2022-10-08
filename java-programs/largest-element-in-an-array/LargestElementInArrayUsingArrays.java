@@ -17,8 +17,8 @@ public class LargestElementInArrayUsingArrays {
 		int[] arr = {2, 5, 9, 8, 11};
 		
 		int largestElement = getLargest(arr);
-		System.out.println("Largest element in an array 'arr' using Array.sort() is :"+ largestElement);
-
+		System.out.println("Largest element in an array 'arr' "
+				+ "using Array.sort() is :"+ largestElement);
 	}
 
 	private static int getLargest(int[] arr) {

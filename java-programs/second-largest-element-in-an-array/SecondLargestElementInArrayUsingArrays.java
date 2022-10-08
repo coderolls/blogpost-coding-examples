@@ -14,7 +14,8 @@ public class SecondLargestElementInArrayUsingArrays {
 		int[] arr = {2, 5, 9, 8, 11, 18, 13};
 		
 		int secondLargest = getSecondLargest(arr);
-		System.out.println("The second largest element in an array 'arr' is using Arrays.sort() :"+ secondLargest);
+		System.out.println("The second largest element in"
+				+ "an array 'arr' is using Arrays.sort() :"+ secondLargest);
 	}
 
 	private static int getSecondLargest(int[] arr) {
